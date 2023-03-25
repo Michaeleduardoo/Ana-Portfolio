@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.Principal {
+    height: 100%;
+    width: 100%;
+    background-color: #01011a;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+
+
+
+}
+
+.nav-seg {
+    box-shadow: rgba(0, 0, 0, 0.233) 0px 3px 8px;
+    margin-top: 30px;
+    background-color: #010024;
+}
+
+
+
+ul {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+
+
+.li-One {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 25px;
+
+}
+
+.li-Two {
+    list-style: none;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #FFF401;
+    transition: 0.5s;
+}
+
+
+.img-link {
+    margin: -45px;
+}
+
+.img-icon {
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+.caixa-segundaria {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.caixa-informacoes {
+    display: inline-block;
+    padding-left: 20%;
+}
+
+.caixa-eletro {
+    display: inline-block;
+    padding-right: 10%;
+}
+
+.img-eletro {
+    width: 102%;
+}
+
+h1 {
+    font-size: 55px;
+    color: #FFF401;
+}
+
+.paragrafo-eletro {
+    color: #fff;
+    font-size: 25px;
+}
+
+.button-cv {
+    font-size: 20px;
+    width: 100px;
+    margin-top: 5px;
+    background: #FFF401;
+    border: none;
+    color: #01011A;
+    border-radius: 3px;
+    transform: 0.3s;
+    cursor: pointer;
+}
+
+.button-cv:hover {
+    color: #FFF401;
+    background: #010024;
+    transition: 0.3s;
+    border: 1px solid #000;
+    font-size: 18px;
+}
+
+
+
+.nav-segundo {
+    box-shadow: rgba(0, 0, 0, 0.233) 0px 3px 8px;
+    margin-top: 30px;
+    background-color: #010024;
+    display: none;
+}
+
+.ul-names {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: none;
+}
+
+
+/*Sobre mim*/
+
+section {
+    display: flex;
+    align-items: center;
+
+}
+
+.my-foto {
+    padding-left: 7%;
+}
+
+.sobre-mim {
+    background-color: #010024;
+    margin-top: 100px;
+}
+
+.caixa-mim {
+    padding: 5%;
+}
+
+h3 {
+    font-size: 55px;
+    color: #FFF401;
+}
+
+h6 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.ctt {
+    text-decoration: none;
+    color: #01011A;
+    transition: 0.9s;
+    text-align: center;
+}
+
+.entre-ctt {
+    font-size: 20px;
+    width: 250px;
+    margin-top: 5px;
+    background: #FFF401;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+
+
+.entre-ctt:hover {
+    color: #01011a;
+    background: #FFF;
+    transition: 0.1s;
+    border: 1px solid #000;
+    font-size: 18px;
+
+}
+
+.entre-ctt i {
+    font-size: 25px;
+    margin-bottom: 3px;
+    padding-right: 3px;
+}
+
+.card-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.card {
+    background-color: #010024;
+    height: 460px;
+    width: 335px;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+}
+
+
+.box h3 {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+
+
+.card img {
+    height: 100px;
+}
+
+
+.card h6 {
+    color: #FFF401;
+    font-size: 20px;
+}
+
+.card p {
+    color: #FFF;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+.card a {
+    background-color: #FFF401;
+    color: #010024;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.card a:hover {
+    color: #01011a;
+    background: #FFF;
+    transition: 0.3s;
+}
+
+footer {
+    text-align: center;
+    background-color: #010024;
+}
+
+footer h6 {
+    font-size: 40px;
+    padding-top: 20px;
+    color: #FFF401;
+}
+
+footer p {
+    color: #FFF;
+    font-size: 18px;
+}
+
+.icon {
+    margin-top: 10px;
+}
+
+.icon i {
+    background: #FFF401;
+    font-size: 35px;
+    margin-left: 10px;
+    padding: 5px;
+    color: #01011a;
+    border-radius: 50px;
+}
+
+.icon i:hover {
+    background: #010024;
+    color: #FFF401;
+    border: 1px solid #FFF401;
+}
+
+.Desenvolvido {
+    background: #01011a;
+    margin-top: 20px;
+}
+
+span {
+    color: #FFF;
+}
+
+span a {
+    color: #FFF401;
+}
+
+
+
+
+
+@media all and (max-width:700px) {
+
+    ul {
+        display: none;
+    }
+
+    .nav-seg {
+        display: none;
+    }
+
+    .nav-segundo {
+        margin-bottom: 20px;
+        width: 90%;
+        justify-content: space-around;
+        display: flex;
+
+    }
+
+    .ul-names {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.20);
+        backdrop-filter: blur(8px);
+        justify-content: center;
+        top: 0;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        margin-left: -200%;
+        transition: all 0.5s ease;
+
+    }
+
+    .mobile-menu {
+        margin-left: 0%;
+
+    }
+
+
+    .img-icon {
+        display: flex;
+        margin: 0;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-left: 35px;
+    }
+
+    .bxIcon {
+        color: #FFF;
+        font-size: 40px;
+        z-index: 1;
+    }
+
+    .one-li {
+        margin: 25px;
+        font-size: 30px;
+
+    }
+
+    .a-one {
+        color: #01011a;
+        font-size: 40px;
+    }
+
+    .link-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+    }
+
+    .caixa-informacoes {
+        padding-left: 0;
+    }
+
+    .caixa-segundaria {
+        display: block;
+        text-align: center;
+    }
+
+    .caixa-eletro {
+        padding-right: 0;
+    }
+
+    .img-eletro {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .ctt {
+        display: flex;
+        justify-content: center;
+    }
+
+    section {
+        display: block;
+    }
+
+    .my-foto {
+        padding-left: 0;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .caixa-mim {
+        text-align: center;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .card-principal {
+        display: block;
+    }
+
+
+}
+
+
+@media all and (max-width:400px) {
+
+    .card {
+        height: 100%;
+        width: 100%;
+    }
+}
