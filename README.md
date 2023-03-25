@@ -18,7 +18,7 @@
 <br>
 
 
-<h3><a  href="portfolio-ana.netlify.app"> Meu Portfólio </a></h3>
+<h3><a  href="https://portfolio-ana.netlify.app/"> Meu Portfólio </a></h3>
 
 </div
 
