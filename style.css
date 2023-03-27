@@ -447,11 +447,12 @@ span a {
     }
 
     .card {
-        margin-bottom: 30px;
+        margin: 30px auto;
     }
 
     .card-principal {
         display: block;
+        padding: 0;
     }
 
 
