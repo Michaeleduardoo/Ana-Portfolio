@@ -69,9 +69,6 @@ a:hover {
 }
 
 
-.img-link {
-    margin: -45px;
-}
 
 .img-icon {
     width: 50%;
@@ -147,7 +144,7 @@ h1 {
 
 .ul-names {
     display: flex;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 20px;
     display: none;
 }
