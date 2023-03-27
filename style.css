@@ -331,7 +331,9 @@ span a {
 }
 
 
-
+#bxIcon{
+    display: none;
+}
 
 
 @media all and (max-width:700px) {
