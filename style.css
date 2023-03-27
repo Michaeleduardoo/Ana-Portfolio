@@ -223,14 +223,13 @@ h6 {
 
 .card-principal {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 50px;
 }
 
 .card {
     background-color: #010024;
-    height: 460px;
     width: 335px;
     border-radius: 20px;
     padding: 20px 35px;
@@ -463,6 +462,10 @@ span a {
 
     .card {
         height: 100%;
-        width: 100%;
+        width: 90%;
+    }
+
+    .box h3{
+        font-size: 50px;
     }
 }
