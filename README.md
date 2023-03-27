@@ -7,7 +7,7 @@
 
 <h6>Funciona tanto para Desktop e Móbile</h6>
 
-<img src="https://github.com/Michaeleduardoo/Ana-Portfolio/blob/master/img/portfolio.png?raw=true" width=40%;>
+<img src="https://github.com/Michaeleduardoo/Ana-Portfolio/blob/master/img/ImgPortfolio.jpg?raw=true" width=40%;>
 
 <h2> Tecnologia utilizadas: </h6>
 
