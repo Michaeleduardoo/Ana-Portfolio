@@ -36,7 +36,7 @@ nav {
 
 ul {
     display: flex;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 20px;
 
 }
@@ -375,9 +375,12 @@ span a {
     .img-icon {
         display: flex;
         margin: 0;
-        padding-top: 30px;
         padding-bottom: 20px;
         padding-left: 35px;
+    }
+
+    .img-link{
+        margin-left: -35px;
     }
 
     .bxIcon {
@@ -401,7 +404,7 @@ span a {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 0;
+        padding-left: 30px;
     }
 
     .caixa-informacoes {
